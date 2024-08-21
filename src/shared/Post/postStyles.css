@@ -1,0 +1,376 @@
+.post-box {
+    display: flex;
+    align-content: flex-start;
+    justify-content: flex-start;
+}
+
+.post-content {
+    border: 5px solid #ffffff;
+    max-height: 1000px;
+    border-radius: 30px;
+    background-color: white;
+    overflow: hidden;
+}
+
+.post-header {
+    display: flex;
+    align-content: flex-start;
+    padding-left: 20px;
+    position: relative;
+}
+
+.post-icon {
+    font-size: 50px;
+}
+
+.post-text {
+    font-size: 20px;
+}
+
+.post-more-icon {
+    position: absolute;
+    right: 20px;
+    font-size: 30px;
+}
+
+.post-image-container {
+    width: 100%;
+    height: 0;
+    position: relative;
+}
+
+.post-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.menu-paper {
+    background-color: #F4E9DC !important;
+    border-radius: 15px !important;
+}
+
+.menu-item {
+    color: #472f17;
+}
+
+.menu-item-padding-bottom {
+    padding-bottom: 3px;
+}
+
+.menu-item-padding-top {
+    padding-top: 3px;
+}
+
+.icon {
+    margin-right: 1px;
+    padding-right: 8px;
+    color: #472f17;
+}
+
+.report-modal {
+    width: 287px;
+    background-color: #f4e9dc;
+    padding: 28px; 
+    border-radius: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.report-modal-title {
+    color: #472f17;
+}
+
+.radio-group-padding {
+    padding-left: 20px; 
+}
+
+.form-control-label {
+    color: #472f17;
+}
+
+.radio-checked {
+    color: #472f17 !important;
+}
+
+.submit-button {
+    margin-top: 14px !important; 
+    padding-left: 60px !important; 
+    padding-right: 60px !important;
+    color: #f4e9dc !important;
+    background-color: #472f17 !important;
+    font-size: 16px !important;
+}
+
+.submit-button:hover {
+    background-color: #654321 !important;
+}
+
+.submit-button:disabled {
+    background-color: #af9377 !important;
+    color: #f4e9dc;
+}
+
+.submit-button:disabled:hover {
+    background-color: #997148 !important;
+}
+
+@media (min-width: 601px) and (max-width: 960px) {
+    .post-content {
+      width: 80%;
+    }
+    .post-image-container {
+        padding-bottom: 80%;
+    }
+    .post-header {
+        padding-top: 12px;
+        padding-bottom: 8px;
+    }
+    .post-icon {
+        font-size: 30px !important;
+    }
+    .post-text { 
+        font-size: 15px !important;
+        padding-top: 5px;
+        padding-left: 6px;
+    }
+    .dot {
+        font-size: 18px !important;
+    }
+    .post-more-icon {
+        margin-top: -7px;
+    }
+    .post-container {
+        padding-top: 5px;
+        padding-bottom: 30px;
+    }
+
+    .menu-paper {
+        padding-top: 4px;
+        padding-bottom: 4px;
+        padding-left: 2px;
+        padding-right: 4px;
+    }
+
+    .menu-item {
+        font-size: 12px !important;
+    }
+    
+    .menu-item-padding-bottom {
+        padding-bottom: 2px;
+    }
+    
+    .menu-item-padding-top {
+        padding-top: 2px;
+    }
+    
+    .icon {
+        font-size: 18px !important;
+    }
+
+    .report-modal-title {
+        font-size: 16px !important;
+    }
+
+    .report-modal {
+        width: 228px;
+        padding: 24px; 
+        border-radius: 15px;
+    }
+    
+    .radio-group-padding {
+        padding-left: 15px; 
+    }
+
+    .box-button {
+        padding-left: 36px;
+    }
+
+    .MuiFormControlLabel-label {
+        font-size: 14px !important;
+    }
+    
+    .submit-button {
+        margin-top: 20px !important; 
+        padding-left: 50px !important; 
+        padding-right: 50px !important;
+        font-size: 13px !important;
+    }
+
+    .form-control-label {
+        margin-bottom: -8px;
+    }
+  }
+  
+  @media (min-width: 961px) and (max-width: 1280px) {
+    .post-content {
+      width: 80%;
+    }
+    .post-image-container {
+        padding-bottom: 85%;
+    }
+    .post-text { 
+        padding-top: 9px;
+        padding-left: 8px;
+    }
+    .post-container {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .post-header {
+        padding-top: 12px;
+        padding-bottom: 8px;
+    }
+    .post-icon {
+        font-size: 34px !important;
+    }
+
+    .menu-paper {
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-left: 4px;
+        padding-right: 6px;
+    }
+
+    .menu-item {
+        font-size: 15px !important;
+    }
+    
+    .menu-item-padding-bottom {
+        padding-bottom: 3px;
+    }
+    
+    .menu-item-padding-top {
+        padding-top: 3px;
+    }
+    
+    .icon {
+        font-size: 20px !important;
+    }
+
+    .report-modal-title {
+        font-size: 16px !important;
+    }
+
+    .report-modal {
+        width: 228px;
+        padding: 24px 28px;
+        border-radius: 15px;
+    }
+    
+    .radio-group-padding {
+        padding-left: 15px; 
+    }
+
+    .box-button {
+        padding-left: 27px;
+    }
+
+    .MuiFormControlLabel-label {
+        font-size: 15px !important;
+    }
+    
+    .submit-button {
+        margin-top: 17px !important; 
+        padding-left: 60px !important; 
+        padding-right: 60px !important;
+        font-size: 14px !important;
+    }
+
+    .form-control-label {
+        margin-bottom: -6px;
+    }
+  }
+  
+  @media (min-width: 1281px) {
+    .post-content {
+      width: 62%;
+    }
+    .post-text { 
+        padding-top: 16px;
+        padding-left: 12px;
+        font-size: 22px !important;
+    }
+    .post-more-icon {
+        padding-top: 10px;
+    }
+    .dot {
+        font-size: 28px !important;
+    }
+    .post-image-container {
+        padding-bottom: 80%;
+    }
+    .post-container {
+        padding-left: 2%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .post-header {
+        padding-top: 16px;
+        padding-bottom: 12px;
+    }
+    .post-icon {
+        font-size: 54px !important;
+    }
+
+    .menu-paper {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 12px;
+    }
+    
+    .menu-item {
+        font-size: 20px !important;
+    }
+    
+    .menu-item-padding-bottom {
+        padding-bottom: 3px;
+    }
+    
+    .menu-item-padding-top {
+        padding-top: 3px;
+    }
+    
+    .icon {
+        font-size: 30px !important;
+    }
+
+    .report-modal {
+        width: 287px;
+        padding: 30px 34px; 
+        border-radius: 15px;
+    }
+
+    .report-modal-title {
+        font-size: 20px !important;
+        padding-bottom: 3px;
+    }
+    
+    .radio-group-padding {
+        padding-left: 20px; 
+    }
+
+    .box-button {
+        padding-left: 40px;
+    }
+
+    .MuiFormControlLabel-label {
+        font-size: 18px !important;
+    }
+    
+    .submit-button {
+        margin-top: 18px !important; 
+        padding-left: 70px !important; 
+        padding-right: 70px !important;
+        font-size: 16px !important;
+    }
+  }

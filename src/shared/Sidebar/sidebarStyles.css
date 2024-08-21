@@ -1,0 +1,121 @@
+.drawer {
+    width: 100%;
+    flex-shrink: 0;
+    box-sizing: border-box;
+  }
+  
+  .drawer-paper {
+    width: 100%;
+    box-sizing: border-box;
+    background-size: cover;
+  }
+  
+  .box {
+    padding-top: 4%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 3%;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: relative;
+  }
+  
+  .box .my-app {
+    transform: translateX(-50%) rotate(-90deg);
+    transform-origin: top left;
+    position: absolute;
+    white-space: nowrap;
+    font-weight: 500;
+    color: #dcc0a9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .list {
+    margin-left: -4px;
+  }
+  
+  .list-item {
+    padding-left: 2px;
+  }
+  
+  .list-item-icon {
+    min-width: 40px;
+    padding-left: 0;
+  }
+  
+  .list-item-text .MuiTypography-root {
+    font-weight: bold;
+    color: #e9e1d8;
+  }
+
+  @media (max-width: 600px) {
+    .drawer .MuiDrawer-paper, .my-app {
+      width: 180px;
+      font-size: 100px;
+    }
+    .my-app {
+      top: 65%;
+      left: 112%;
+    }
+    .list-item-text .MuiTypography-root {
+      font-size: 15px;
+    }
+  }
+  
+  @media (min-width: 601px) and (max-width: 960px) {
+    .drawer .MuiDrawer-paper, .my-app {
+      width: 240px;
+      font-size: 90px;
+    }
+    .my-app {
+      top: 60%;
+      left: 70%;
+    }
+    .list-item-text .MuiTypography-root {
+      font-size: 18px;
+    }
+    .list-item {
+      padding: 0 !important;
+      padding-bottom: 3px !important;
+      padding-top: 3px !important;
+    }
+  }
+  
+  @media (min-width: 961px) and (max-width: 1500px) {
+    .drawer .MuiDrawer-paper {
+      width: 300px;
+    }
+    .my-app {
+      font-size: 90px;
+      top: 70%;
+      left: 90%;
+    }
+    .list-item-text .MuiTypography-root {
+      font-size: 20px;
+    }
+    .list-item {
+      padding: 0 !important;
+      padding-bottom: 3px !important;
+      padding-top: 3px !important;
+    }
+  }
+  
+  @media (min-width: 1501px) {
+    .drawer .MuiDrawer-paper, .my-app {
+      width: 400px;
+      font-size: 150px;
+    }
+    .my-app {
+      top: 62%;
+      left: 70%;
+    }
+    .list-item-text .MuiTypography-root {
+      font-size: 26px;
+    }
+  }

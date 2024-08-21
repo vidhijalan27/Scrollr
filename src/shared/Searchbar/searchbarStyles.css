@@ -1,0 +1,89 @@
+.searchbar-container {
+    display: flex;
+    align-content: flex-start;
+    justify-content: flex-start;
+    padding-left: 10%;
+  }
+  
+  .searchbar:hover .MuiOutlinedInput-notchedOutline {
+    border-color: #F4E9DC;
+  }
+  
+  .searchbar.Mui-focused .MuiOutlinedInput-notchedOutline {
+    border-color: #F4E9DC;
+  }
+  
+  .searchbar .MuiOutlinedInput-notchedOutline {
+    border-color: #F4E9DC;
+  }
+  
+  .searchbar input {
+    color: #A17658;
+  }
+  
+  .searchbar-icon {
+    color: #A17658;
+  }
+  
+  @media (max-width: 600px) {x
+    .searchbar {
+      width: 60%;
+    }
+  }
+  
+  @media (min-width: 601px) and (max-width: 960px) {w
+    .searchbar {
+      width: 80%;
+      height: 32px;
+    }
+    .searchbar-icon {
+      font-size: 22px !important;
+    }
+    .searchbar input {
+      font-weight: 500;
+      font-size: 16px;
+      padding: 8px 2px;
+    }
+    .searchbar-container {
+      padding-bottom: 30px;
+      padding-top: 20px;
+    }
+  }
+  
+  @media (min-width: 961px) and (max-width: 1280px) {
+    .searchbar {
+      width: 67%;
+      height: 40px;
+    }
+    .searchbar-icon {
+      font-size: 24px !important;
+    }
+    .searchbar input {
+      font-weight: 500;
+      font-size: 18px;
+      padding: 8px 2px;
+    }
+    .searchbar-container {
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+  }
+  
+  @media (min-width: 1281px) {
+    .searchbar {
+      width: 50%;
+      height: 55px;
+    }
+    .searchbar-icon {
+      font-size: 32px !important;
+    }
+    .searchbar input {
+      padding: 8px 10px;
+      font-weight: 540;
+      font-size: 22px;
+    }
+    .searchbar-container {
+      padding-top: 30px;
+      padding-bottom: 20px;
+    }
+  }
